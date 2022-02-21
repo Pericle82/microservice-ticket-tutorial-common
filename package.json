@@ -1,6 +1,6 @@
 {
   "name": "@joepericle/common",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -23,7 +23,6 @@
     "@types/jsonwebtoken": "^8.5.1"
   },
   "dependencies": {
-
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
     "express-validator": "^6.12.0",
