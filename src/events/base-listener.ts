@@ -6,7 +6,7 @@ interface Event {
     data: any;
 }
 
-abstract class Listener<T extends Event> {
+export abstract class Listener<T extends Event> {
 
     // abstract ==> must be defined inside implemented class
     // protectd ==> can be defined insiede implemented class
@@ -51,5 +51,3 @@ abstract class Listener<T extends Event> {
         JSON.parse(data) : JSON.parse(data.toString('utf-8'))
     }
 }
-
-export default Listener;
